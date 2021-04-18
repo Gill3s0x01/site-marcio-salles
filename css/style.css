@@ -227,8 +227,8 @@ img{
 
 .tecnologias .content {
   display: flex;
-  width: 90vw;
-  height: 60vh;
+  width: 85vw;
+  height: 90vh;
   overflow: hidden;
   background-color: #f7f5fa;
 }
@@ -633,6 +633,11 @@ img{
     background-color: #f7f5fa;
   }
 
+  .panel {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
   .panel:nth-of-type(12),
   .panel:nth-of-type(13) {
     display: none;
@@ -668,9 +673,13 @@ img{
   .tecnologias .content {
     display: flex;
     width: 90vw;
-    height: 100vh;
+    height: 190vh;
     overflow: hidden;
     background-color: #f7f5fa;
+  }
+  .panel {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
 
   .panel:nth-of-type(12),
