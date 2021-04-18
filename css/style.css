@@ -228,7 +228,7 @@ img{
 .tecnologias .content {
   display: flex;
   width: 85vw;
-  height: 90vh;
+  height: 70vh;
   overflow: hidden;
   background-color: #f7f5fa;
 }
@@ -427,11 +427,40 @@ img{
   .overlay .sci li a {
     padding: 190%;
   }
+  .zoom-add {
+    padding-left: 0px;
+    margin-right: -35px;
+  }
+
+  .img-screen {
+    width: 500px;
+  }
+  .tecnologias .content {
+    display: flex;
+    width: 85vw;
+    height: 61vh;
+    overflow: hidden;
+    background-color: #f7f5fa;
+  }
 }
 
 @media (max-width: 1440px) {
   .overlay .sci li a {
     padding: 15%;
+  }
+  .zoom-add {
+    padding-left: 0px;
+    margin-right: -35px;
+  }
+  .img-screen {
+    width: 480px;
+  }
+  .tecnologias .content {
+    display: flex;
+    width: 85vw;
+    height: 70vh;
+    overflow: hidden;
+    background-color: #f7f5fa;
   }
 }
 
@@ -440,6 +469,14 @@ img{
     font-size: 20px;
     margin-left: -50%;
   }
+  .zoom-add {
+    padding-left: 0px;
+    margin-right: -35px;
+  }
+  .img-screen {
+    width: 480px;
+  }
+
   #em-breve {
     font-size: 0.6em;
   }
@@ -540,7 +577,7 @@ img{
     margin: auto;
   }
   .tecnologias .content .tecnologiasBx {
-    max-width: 390px;
+    max-width: 370px;
     padding: 10px;
   }
   .projetos .content .projetosBx img {
