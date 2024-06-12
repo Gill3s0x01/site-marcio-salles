@@ -35,13 +35,10 @@ window.onload = digitar;
 // Text que escreve a apaga aos poucos
 var div = document.getElementById("log");
 var textos = [
-  "Apaixonado pela minha família",
   "Apaixonado pela vida.",
   "Fotógrafo por amor.",
   "Amo viajar.",
-  "Pai.",
   "Amigo.",
-  "Filho.",
   "Acima de tudo,",
   "com muita fé...",
 ];
